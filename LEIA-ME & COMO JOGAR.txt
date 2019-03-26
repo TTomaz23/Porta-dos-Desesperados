@@ -1,71 +1,71 @@
-Código criado por:
+CÃ³digo criado por:
 	Raphael do Espirito Santo Nascimento 	RA: 186305
-		MA323 Turma B
+		ME323 Turma B
 	Thais Brito Del Picchia Faria		RA: 206043
-		MA323 Turma c
-
-
+		ME323 Turma c
+	Maria Clara FalcÃ£o Cunha	RA:202755
+	ME323 Turma B
 
 IMPORTANTE:
 	A subpasta 'fotos' deve estar na mesma pasta que a planilha excel
-		(Exemplo: Se a planilha está em C:/Downloads, deve existir um caminho C:/Downloads/fotos)
-	É necessário descompactar a pasta
-	Caso somente a simulação automática for executada, não é necessário da pasta 'fotos'
+		(Exemplo: Se a planilha estÃ¡ em C:/Downloads, deve existir um caminho C:/Downloads/fotos)
+	Ã‰ necessÃ¡rio descompactar a pasta
+	Caso somente a simulaÃ§Ã£o automÃ¡tica for executada, nÃ£o Ã© necessÃ¡rio da pasta 'fotos'
 
 
 COMO JOGAR:
-	1. Escolha entre os três botões disponíveis, sendo eles:
-		1.1. Começar um novo jogo:
+	1. Escolha entre os trÃªs botÃµes disponÃ­veis, sendo eles:
+		1.1. ComeÃ§ar um novo jogo:
 			1.1.1. Clique em uma porta
 			1.1.2. Decida se quer mudar de porta ou continuar na mesma
-			1.1.3. Clique na porta que você decidir e torça para ganhar
-		1.2. Começar um jogo automático com troca de portas:
-			- 1000 simulações irão ocorrer, aperte esc para para-las a qualquer momento (pode causar erro)
-		1.3. Começar um jogo automático sem troca de portas:
-			- 1000 simulações irão ocorrer, aperte esc para para-las a qualquer momento (pode causar erro)
-	2. Aperte o botão novamente para tentar denovo
+			1.1.3. Clique na porta que vocÃª decidir e torÃ§a para ganhar
+		1.2. ComeÃ§ar um jogo automÃ¡tico com troca de portas:
+			- 1000 simulaÃ§Ãµes irÃ£o ocorrer, aperte esc para para-las a qualquer momento (pode causar erro)
+		1.3. ComeÃ§ar um jogo automÃ¡tico sem troca de portas:
+			- 1000 simulaÃ§Ãµes irÃ£o ocorrer, aperte esc para para-las a qualquer momento (pode causar erro)
+	2. Aperte o botÃ£o novamente para tentar denovo
 
 
-SOBRE O CÓDIGO:
-	1. O código foi escrito em linguagem VBA
-		1.1. Para visualizá-lo, aperte Alt+F11 e clique duas vezes em Plan1(Plan1)
+SOBRE O CÃ“DIGO:
+	1. O cÃ³digo foi escrito em linguagem VBA
+		1.1. Para visualizÃ¡-lo, aperte Alt+F11 e clique duas vezes em Plan1(Plan1)
 	2. Sobre o jogo manual:
-		2.1. Ao clicar no botão 'Começar um novo jogo', as portas são fechadas e dois números aleatórios são gerados:
-			2.1.1. O primeiro número varia de 1 a 3, sendo a porta que será escolhida para receber o prêmio
-			2.1.2. O segundo número varia de 1 a 2, sendo utilizado para decidir a porta que será aberta caso o jogador escolha a porta premiada
+		2.1. Ao clicar no botÃ£o 'ComeÃ§ar um novo jogo', as portas sÃ£o fechadas e dois nÃºmeros aleatÃ³rios sÃ£o gerados:
+			2.1.1. O primeiro nÃºmero varia de 1 a 3, sendo a porta que serÃ¡ escolhida para receber o prÃªmio
+			2.1.2. O segundo nÃºmero varia de 1 a 2, sendo utilizado para decidir a porta que serÃ¡ aberta caso o jogador escolha a porta premiada
 		2.2. Quando o jogador clica em uma porta:
-			2.2.1. Será aberta a porta sem o prêmio, se a porta escolhida pelo jogador também não for a premiada
-			2.2.2. Será escolhida uma porta baseada no segundo número aleatório, para abrir uma das portas sem prêmio, caso o jogador tenha clicado na porta premiada
+			2.2.1. SerÃ¡ aberta a porta sem o prÃªmio, se a porta escolhida pelo jogador tambÃ©m nÃ£o for a premiada
+			2.2.2. SerÃ¡ escolhida uma porta baseada no segundo nÃºmero aleatÃ³rio, para abrir uma das portas sem prÃªmio, caso o jogador tenha clicado na porta premiada
 		2.3. Ao clicar novamente em uma porta
-			2.3.1. A porta será aberta
-		2.4. É possível abrir todas as portas, onde é averiguavel que existem 2 portas com uma cabra e 1 com um prêmio
-	3. Sobre os jogos automáticos:
+			2.3.1. A porta serÃ¡ aberta
+		2.4. Ã‰ possÃ­vel abrir todas as portas, onde Ã© averiguavel que existem 2 portas com uma cabra e 1 com um prÃªmio
+	3. Sobre os jogos automÃ¡ticos:
 		3.1. Com troca de porta:
-			3.1.1. Ao clicar no botão 'Começar um novo jogo automático com troca de portas'
-				3.1.1.1. A tabela com os resultados da ultima simulação serão apagados
-				3.1.1.2. A contagem do número da simulação é retornado para 0
-				3.1.1.3. É exibido a mensagem sobre o número de simulações e como cancela-la
+			3.1.1. Ao clicar no botÃ£o 'ComeÃ§ar um novo jogo automÃ¡tico com troca de portas'
+				3.1.1.1. A tabela com os resultados da ultima simulaÃ§Ã£o serÃ£o apagados
+				3.1.1.2. A contagem do nÃºmero da simulaÃ§Ã£o Ã© retornado para 0
+				3.1.1.3. Ã‰ exibido a mensagem sobre o nÃºmero de simulaÃ§Ãµes e como cancela-la
 				3.1.1.4. Iniciado um loop de 1000 voltas:
-					3.1.1.4.1. Será definido 3 números aleatórios
-						3.1.1.4.1.1. O primeiro número varia de 1 a 3, sendo a porta que será escolhida para receber o prêmio
-						3.1.1.4.1.2. O segundo número varia de 1 a 2, sendo utilizado para decidir a porta que será aberta caso o jogador escolha a porta premiada
-						3.1.1.4.1.3. O terceiro número varia de 1 a 3, que será a porta escolhida pelo programa inicialmente
-					3.1.1.4.2. Se a porta escolhida pelo terceiro número aleatório for a premiada, o programa irá utilizar do segundo número para escolher uma porta que será "aberta" e escolherá como porta final a outra restante
-					3.1.1.4.3. Se a porta escolhida pelo terceiro número aleatório não for a premiada, o programa irá abrir a outra porta sem prêmio e então escolherá como porta final a porta restante, que está com o prêmio
-					3.1.1.4.4. A célula da linha a ser editada é selecionada, para acompanhamento pelo usuário
-					3.1.1.4.5. As colunas da linha correspondente ao número da simulação são atualizadas
-					3.1.1.4.6. O loop é reiniciado
+					3.1.1.4.1. SerÃ¡ definido 3 nÃºmeros aleatÃ³rios
+						3.1.1.4.1.1. O primeiro nÃºmero varia de 1 a 3, sendo a porta que serÃ¡ escolhida para receber o prÃªmio
+						3.1.1.4.1.2. O segundo nÃºmero varia de 1 a 2, sendo utilizado para decidir a porta que serÃ¡ aberta caso o jogador escolha a porta premiada
+						3.1.1.4.1.3. O terceiro nÃºmero varia de 1 a 3, que serÃ¡ a porta escolhida pelo programa inicialmente
+					3.1.1.4.2. Se a porta escolhida pelo terceiro nÃºmero aleatÃ³rio for a premiada, o programa irÃ¡ utilizar do segundo nÃºmero para escolher uma porta que serÃ¡ "aberta" e escolherÃ¡ como porta final a outra restante
+					3.1.1.4.3. Se a porta escolhida pelo terceiro nÃºmero aleatÃ³rio nÃ£o for a premiada, o programa irÃ¡ abrir a outra porta sem prÃªmio e entÃ£o escolherÃ¡ como porta final a porta restante, que estÃ¡ com o prÃªmio
+					3.1.1.4.4. A cÃ©lula da linha a ser editada Ã© selecionada, para acompanhamento pelo usuÃ¡rio
+					3.1.1.4.5. As colunas da linha correspondente ao nÃºmero da simulaÃ§Ã£o sÃ£o atualizadas
+					3.1.1.4.6. O loop Ã© reiniciado
 		3.2. Sem troca de porta:
-			3.2.1. Ao clicar no botão 'Começar um novo jogo sem troca de portas'
-				3.2.1.1. A tabela com os resultados da ultima simulação serão apagados
-				3.2.1.2. A contagem do número da simulação é retornado para 0
-				3.2.1.3. É exibido a mensagem sobre o número de simulações e como cancela-la
+			3.2.1. Ao clicar no botÃ£o 'ComeÃ§ar um novo jogo sem troca de portas'
+				3.2.1.1. A tabela com os resultados da ultima simulaÃ§Ã£o serÃ£o apagados
+				3.2.1.2. A contagem do nÃºmero da simulaÃ§Ã£o Ã© retornado para 0
+				3.2.1.3. Ã‰ exibido a mensagem sobre o nÃºmero de simulaÃ§Ãµes e como cancela-la
 				3.2.1.4. Iniciado um loop de 1000 voltas:
-					3.2.1.4.1. Será definido 2 números aleatórios
-						3.2.1.4.1.1. O primeiro número varia de 1 a 3, sendo a porta que será escolhida para receber o prêmio
-						3.2.1.4.1.2. O segundo número varia de 1 a 3, que será a porta escolhida pelo programa inicialmente, e como não há troca
-							de portas, será o número da porta final
-					3.2.1.4.2. A célula da linha a ser editada é selecionada, para acompanhamento pelo usuário
-					3.2.1.4.3. As colunas da linha correspondente ao número da simulação são atualizadas
-					3.2.1.4.4. O loop é reiniciado
+					3.2.1.4.1. SerÃ¡ definido 2 nÃºmeros aleatÃ³rios
+						3.2.1.4.1.1. O primeiro nÃºmero varia de 1 a 3, sendo a porta que serÃ¡ escolhida para receber o prÃªmio
+						3.2.1.4.1.2. O segundo nÃºmero varia de 1 a 3, que serÃ¡ a porta escolhida pelo programa inicialmente, e como nÃ£o hÃ¡ troca
+							de portas, serÃ¡ o nÃºmero da porta final
+					3.2.1.4.2. A cÃ©lula da linha a ser editada Ã© selecionada, para acompanhamento pelo usuÃ¡rio
+					3.2.1.4.3. As colunas da linha correspondente ao nÃºmero da simulaÃ§Ã£o sÃ£o atualizadas
+					3.2.1.4.4. O loop Ã© reiniciado
 						
