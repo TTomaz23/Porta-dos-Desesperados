@@ -3,8 +3,8 @@ Código criado por:
 		ME323 Turma B
 	Thais Brito Del Picchia Faria		RA: 206043
 		ME323 Turma c
-	Maria Clara Falcão Cunha	RA:202755
-	ME323 Turma B
+	Maria Clara Falcão Cunha		RA:202755
+		ME323 Turma B
 
 IMPORTANTE:
 	A subpasta 'fotos' deve estar na mesma pasta que a planilha excel
